@@ -1,0 +1,40 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #a79e4d;
+  color: #2c3e50;
+  padding: 40px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 34px;
+  color: #444;
+}
+
+.main-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.wardrobe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.section {
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+}
+
+.section h2 {
+  color: #8e44ad;
+  margin-bottom: 10px;
+}
